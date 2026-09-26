@@ -1,4 +1,4 @@
-package com.example.coffeevan.model;
+package com.knu.coffeevan.model;
 
 import java.util.ArrayList;
 import java.util.Collection;

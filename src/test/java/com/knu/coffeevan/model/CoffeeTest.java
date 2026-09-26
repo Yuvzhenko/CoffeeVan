@@ -1,0 +1,1 @@
+package com.knu.coffeevan.model;

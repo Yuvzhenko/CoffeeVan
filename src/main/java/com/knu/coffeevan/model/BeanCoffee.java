@@ -1,4 +1,4 @@
-package com.example.coffeevan.model;
+package com.knu.coffeevan.model;
 
 public final class BeanCoffee extends Coffee{
     public BeanCoffee(String name, int weightGrams, int volumeMilliliters, int price, int quality){
