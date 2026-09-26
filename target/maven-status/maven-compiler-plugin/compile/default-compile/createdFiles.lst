@@ -1,0 +1,7 @@
+com\knu\coffeevan\model\Coffee.class
+com\knu\coffeevan\model\GroundCoffee.class
+com\knu\coffeevan\app\CoffeeVanApplication.class
+com\knu\coffeevan\model\BeanCoffee.class
+com\knu\coffeevan\model\InstantCoffee$Packaging.class
+com\knu\coffeevan\model\InstantCoffee.class
+com\knu\coffeevan\model\CoffeeVan.class
