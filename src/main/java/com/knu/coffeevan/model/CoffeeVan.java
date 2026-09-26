@@ -53,7 +53,7 @@ public final class CoffeeVan{
             long left = (long) first.getPrice() * second.getWeight();
             long right = (long) first.getWeight() * second.getPrice();
 
-            return Long.compare(right, left);
+            return Long.compare(left, right);
         });
     }
 
@@ -63,8 +63,8 @@ public final class CoffeeVan{
         }
 
         return cargo.stream()
-                .filter(coffee -> coffee.getQuality() >= max)
-                .filter(coffee -> coffee.getQuality() <= min)
+                .filter(coffee -> coffee.getQuality() <= max)
+                .filter(coffee -> coffee.getQuality() >= min)
                 .toList();
     }
 

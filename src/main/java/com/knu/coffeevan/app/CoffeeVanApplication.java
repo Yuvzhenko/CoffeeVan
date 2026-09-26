@@ -64,7 +64,7 @@ public final class CoffeeVanApplication{
                         + " | " + coffee.getForm()
                         + " | " + coffee.getPackaging()
                         + " | quality = " + coffee.getQuality()
-                        + " | " + pricePerKilo.toPlainString() + " UAN/kg");
+                        + " | " + pricePerKilo.toPlainString() + " UAH/kg");
     }
 
     private String formatMoney(long kopecks){

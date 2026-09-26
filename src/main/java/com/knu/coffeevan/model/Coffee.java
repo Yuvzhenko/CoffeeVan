@@ -20,7 +20,7 @@ public abstract class Coffee{
             throw  new IllegalArgumentException("Weight must be more then zero");
         }
         if (volumeMilliliters <= 0){
-            throw  new IllegalArgumentException("Weight must be more then zero");
+            throw  new IllegalArgumentException("Volume must be more then zero");
         }
         if (price <= 0){
             throw new IllegalArgumentException("Price must be more then zero");
